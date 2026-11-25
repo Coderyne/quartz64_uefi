@@ -39,4 +39,4 @@ jobs:
 
       - name: Build
         run: |
-          make sdcard
+          make sdcard BOARDS=ZERO-3W
