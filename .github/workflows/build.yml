@@ -40,3 +40,10 @@ jobs:
       - name: Build
         run: |
           make sdcard BOARDS=ZERO-3W
+
+      - name: Upload images
+        uses: actions/upload-artifact@v4
+        with:
+          name: uefi-images
+          path: ./*_EFI.img
+          if-no-files-found: error

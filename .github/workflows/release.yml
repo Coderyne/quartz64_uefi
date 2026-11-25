@@ -45,3 +45,4 @@ jobs:
             ./PINETAB2_EFI.img.gz
             ./ROC-RK3566-PC_EFI.img.gz
             ./ROC-RK3568-PC_EFI.img.gz
+            ./ZERO-3W_EFI.img.gz
